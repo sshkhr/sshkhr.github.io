@@ -1,0 +1,137 @@
+
+# Site settings
+
+url: "https://sskhrnwbie.github.io"
+baseurl: ""
+google-tracking-id: "UA-35880426-3"
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+author: "Shashank Shekhar"
+lang: "en"
+title: "Shashank Shekhar"
+favicon: "/img/kfp.ico"
+description: "Blog of Shashank Shekhar. Categorical opinions expressed are mine."
+keywords: "sshekhar, ism, computer science,Machine Learning, jekyll"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/intro.jpg"
+me-img: "/img/me.png"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: False
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	4		# Default 10
+start-delay: 2000	# Default 200
+delete-delay: 50000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+- text: "There is no secret ingredient."
+- text: "It's not who I am underneath, but what I do that defines me."
+- text: "The brick walls are there for a reason."
+- text: "Great works are performed not by strength but by perseverance."
+
+########
+# Blog #
+########
+
+post-preview-words: 128
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "sshekhar"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/redx.jpg"
+    image-alt-text: "REDX Workshop"
+    date: "July 2015"
+    description: "Participant @ <a href=\"http://lvpmitra.com/redxcamp/" target=\"_blank\">REDX Workshop, MIT Media Labs & LVP Eye Institute </a>"
+  - image: "/img/career/ias.png"
+    image-alt-text: "Indian Academy of Sciences"
+    date: "May 2015 - July 2015"
+    description: "Indian Academy of Sciences summer research fellow at IIT Hyderabad"
+  - image: "/img/career/ism.jpg"
+    image-alt-text: "Indian School of Mines, Dhanbad"
+    date: "2013 - Pursuing"
+    description: "Bachelors @ <a href=\"http://http://www.ismdhanbad.ac.in/" target=\"_blank\">Indian School of Mines</a>", in Electronics and Communication Engineering"
+  - image: "/img/career/kalka.jpg"
+    image-alt-text: "Kalka Public School"
+    date: "2013"
+    description: "CBSE XII Board @ <a href=\"http://www.kalkaeducationalsociety.com/Kps_delhi-secondry/default.aspx" target=\"_blank\">Kalka Public School</a>""
+  - image: "/img/career/gnnps.jpg"
+    image-alt-text: "G.N. National Public School"
+    date: "2011"
+    description: "CBSE X @ <a href=\"http://www.gnnps.org/" target=\"_blank\">G.N. National Public School</a>"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+career-img-alt-text: "Shashank's Career"
+
+##################
+# Contact layout #
+##################
+
+email: "sshekhar.special@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/sshkhrnwbie"
+  - title: "linkedin"
+    url: "https://in.linkedin.com/in/sshekharspecial"
+  - title: "facebook"
+    url: "https://www.facebook.com/sshekhar.special"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/error.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables bellow this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+  Resume: 'resume'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
