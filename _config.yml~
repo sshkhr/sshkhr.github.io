@@ -73,16 +73,9 @@ events:
   - image: "/img/career/kalka.jpg"
     date: "2013"
     description: "CBSE Class XII @ <a href=\"http://www.kalkaeducationalsociety.com/Kps_delhi-secondry/default.aspx" target=\"_blank\">Kalka Public School, New Delhi</a>"
-  - image: "/img/career/writeright.jpg"
-    date: "August 2011 - Today"
-    description: "Created <a href=\"https://play.google.com/store/apps/details?id=panos.sakkos.softkeyboard.writeright\" target=\"_blank\">WriteRight</a>, an adaptive S/W keyboard for Android devices, which  shrinks the unlikely keys to tap next. Currently it holds &gt; 9,000 downloads"
-  - image: "/img/career/pwnmail.jpg"
-    date: "June 2010 - November 2010"
-    description: "Created <a href=\"https://www.google.com/search?q=pwn+mail\" target=\"_blank\">Pwn Mail</a>, a Cydia iPhone app for spoofing emails. It served &gt; 260,000 emails but it was discontinued after a legal threat by <strike>Steve Jobs</strike> a secretary of Steve Jobs"
-  - image: "/img/career/uoa.jpg"
-    date: "October 2007 - September 2011"
-    description: "Bachelor studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">Department of Informatics and Telecommunications</a> on Computer Science and Telecomunications"
-
+  - image: "/img/career/gnnps.jpg"
+    date: "2011 "
+    description: "CBSE Class X @ <a href=\"http://www.gnnps.org/" target=\"_blank\">G.N. National Public School, Gorakhpur</a>"
 
 
 # First image of the Career timeline
