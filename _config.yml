@@ -101,7 +101,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
+  #Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
 
