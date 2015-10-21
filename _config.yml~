@@ -104,6 +104,7 @@ pages_list:
   Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
+  Resume: 'resume'
 
 # Pagination path
 paginate_path: "blog/page:num"
