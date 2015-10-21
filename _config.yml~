@@ -31,7 +31,7 @@ me-img: "/img/me.png"
 
 dynamic-typing: True
 shuffle: True	# Shuffle the lines.
-loop: False
+loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
 type-speed:	4		# Default 10
 start-delay: 2000	# Default 200
@@ -46,18 +46,42 @@ lines:			# You can add HTML Tags in the Text
 # Blog #
 ########
 
-#post-preview-words: 128
+post-preview-words: 128
 
-#paginate: 5
+paginate: 5
 
-#fb-share: True
-#twitter-share: True
-#reddit-share: True
-#disqus-shortname: "sshekhar"
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "sshekhar"
 
 ###############
 # Life Events #
 ###############
+
+
+events:
+  - image: "/img/career/redx.jpg"
+    date: "July 2015 "
+    description: "Participant @ <a href=\"http://lvpmitra.com/redxcamp/" target=\"_blank\"> REDX Workshop by MIT Media Labs and LVP Eye Institute</a>"
+  - image: "/img/career/ias.png"
+    date: "May 2015 - July 2015"
+    description: "Summer Research Fellow @ <a href=\"http://www.iith.ac.in/" target=\"_blank\"> Indian Institute of Technology</a> under Indian Academy of Science Summer Research Fellowhip "
+  - image: "/img/career/ism.jpg"
+    date: "2013 - 2017(expected)"
+    description: "Bachelor's studies @ <a href=\"http://www.ismdhanbad.ac.in/" target=\"_blank\">Indian School of Mines</a> in Electronics and Communication Engineering"
+  - image: "/img/career/kalka.jpg"
+    date: "2013"
+    description: "CBSE Class XII @ <a href=\"http://www.kalkaeducationalsociety.com/Kps_delhi-secondry/default.aspx" target=\"_blank\">Kalka Public School, New Delhi</a>"
+  - image: "/img/career/writeright.jpg"
+    date: "August 2011 - Today"
+    description: "Created <a href=\"https://play.google.com/store/apps/details?id=panos.sakkos.softkeyboard.writeright\" target=\"_blank\">WriteRight</a>, an adaptive S/W keyboard for Android devices, which  shrinks the unlikely keys to tap next. Currently it holds &gt; 9,000 downloads"
+  - image: "/img/career/pwnmail.jpg"
+    date: "June 2010 - November 2010"
+    description: "Created <a href=\"https://www.google.com/search?q=pwn+mail\" target=\"_blank\">Pwn Mail</a>, a Cydia iPhone app for spoofing emails. It served &gt; 260,000 emails but it was discontinued after a legal threat by <strike>Steve Jobs</strike> a secretary of Steve Jobs"
+  - image: "/img/career/uoa.jpg"
+    date: "October 2007 - September 2011"
+    description: "Bachelor studies @ <a href=\"http://www.di.uoa.gr/eng\" target=\"_blank\">Department of Informatics and Telecommunications</a> on Computer Science and Telecomunications"
 
 
 
@@ -101,7 +125,7 @@ social:
 
 pages_list:
   About: 'about'
-  #Blog: 'blog'
+  Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
 
