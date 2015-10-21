@@ -60,22 +60,23 @@ disqus-shortname: "sshekhar"
 ###############
 
 
+
 events:
   - image: "/img/career/redx.jpg"
     date: "July 2015 "
-    description: "Participant @ <a href=\"http://lvpmitra.com/redxcamp/" target=\"_blank\"> REDX Workshop by MIT Media Labs and LVP Eye Institute</a>"
+    description: "Participant @ <a href=\"http://lvpmitra.com/redxcamp\" target=\"_blank\"> REDX Workshop by MIT Media Labs and LVP Eye Institute</a>"
   - image: "/img/career/ias.png"
     date: "May 2015 - July 2015"
-    description: "Summer Research Fellow @ <a href=\"http://www.iith.ac.in/" target=\"_blank\"> Indian Institute of Technology</a> under Indian Academy of Science Summer Research Fellowhip "
+    description: "Summer Research Fellow @ <a href=\"http://www.iith.ac.in\" target=\"_blank\"> Indian Institute of Technology</a> under Indian Academy of Science Summer Research Fellowhip "
   - image: "/img/career/ism.jpg"
     date: "2013 - 2017(expected)"
-    description: "Bachelor's studies @ <a href=\"http://www.ismdhanbad.ac.in/" target=\"_blank\">Indian School of Mines</a> in Electronics and Communication Engineering"
+    description: "Bachelor's studies @ <a href=\"http://www.ismdhanbad.ac.in\" target=\"_blank\">Indian School of Mines</a> in Electronics and Communication Engineering"
   - image: "/img/career/kalka.jpg"
     date: "2013"
-    description: "CBSE Class XII @ <a href=\"http://www.kalkaeducationalsociety.com/Kps_delhi-secondry/default.aspx" target=\"_blank\">Kalka Public School, New Delhi</a>"
+    description: "CBSE Class XII @ <a href=\"http://www.kalkaeducationalsociety.com/Kps_delhi-secondry/default.aspx\" target=\"_blank\">Kalka Public School, New Delhi</a>"
   - image: "/img/career/gnnps.jpg"
     date: "2011 "
-    description: "CBSE Class X @ <a href=\"http://www.gnnps.org/" target=\"_blank\">G.N. National Public School, Gorakhpur</a>"
+    description: "CBSE Class X @ <a href=\"http://www.gnnps.org\" target=\"_blank\">G.N. National Public School, Gorakhpur</a>"
 
 
 # First image of the Career timeline

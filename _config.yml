@@ -33,9 +33,9 @@ dynamic-typing: True
 shuffle: True	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	4		# Default 10
-start-delay: 2000	# Default 200
-delete-delay: 50000	# Default 5000
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
 - text: "There is no secret ingredient."
 - text: "It's not who I am underneath, but what I do that defines me."
