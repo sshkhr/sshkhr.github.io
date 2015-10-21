@@ -21,7 +21,7 @@ keywords: "sshekhar, ism, computer science,Machine Learning, jekyll"
 # Intro layout #
 ################
 
-black-favicon: "/img/kfp.ico"
+black-favicon: "/img/black-lab-glass.ico"
 background-img: "../img/intro.jpg"
 me-img: "/img/me.png"
 
@@ -46,14 +46,14 @@ lines:			# You can add HTML Tags in the Text
 # Blog #
 ########
 
-#post-preview-words: 128
+post-preview-words: 128
 
-#paginate: 5
+paginate: 5
 
-#fb-share: True
-#twitter-share: True
-#reddit-share: True
-#disqus-shortname: "sshekhar"
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "sshekhar"
 
 ###############
 # Life Events #
@@ -101,7 +101,7 @@ social:
 
 pages_list:
   About: 'about'
-  #Blog: 'blog'
+  Blog: 'blog'
   Career: 'career'
   Contact: 'contact'
 

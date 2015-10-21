@@ -1,0 +1,9 @@
+---
+layout: post
+section-type: post
+title: Finally a personal page & a blog
+category: personal
+tags: [ 'blog', 'personal' ]
+---
+
+After over 6 months of procrastinating, I finally managed to get my personal page and blog running. Not being much of a web developer, I found just the righ thing in github pages and jekyll which helped hit the ground running in a few easy steps. 
