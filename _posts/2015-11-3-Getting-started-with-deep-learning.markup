@@ -15,6 +15,6 @@ The resources that I will be following over the course of next two months in no 
 * [Deep learning tutorial by LISA Lab, University of Montreal:] (http://deeplearning.net/tutorial/deeplearning.pdf) This tutorial gives hands-on experience with deep learning by using Theano, a Python based library for GPU based computations which speeds up training of deep learning based models greatly. This tutorial provides a brief introduction to the basics of machine learning and then moves on to explaining different deep learning algorithms. 
 * [Deep learning tutorial, Stanford University:](http://deeplearning.stanford.edu/tutorial/) This tutorial by Prof. Andrew Ng's group at Stanford University gives a very good insight into deep learning and also provides programming exercises (with starter code) in MATLAB. 
 
-Besides these, there are several great resources to be found at [deeplearning.net](https://www.deeplearning.net) as well as in this git repository [awesome deep learning]().
+Besides these, there are several great resources to be found at [deeplearning.net](https://www.deeplearning.net) as well as in this git repository [awesome deep learning](https://github.com/ChristosChristofidis/awesome-deep-learning).
 
 Hope you have a great experience learning about deep learning.
