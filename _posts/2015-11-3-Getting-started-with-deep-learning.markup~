@@ -14,3 +14,7 @@ The resources that I will be following over the course of next two months in no 
 * **Deep learning lectures by Prof. Nando de Frietas, University of Oxford:** Prof. Freitas takes a graduate level course for deep learning at the University of Oxford whose video lectures he has generously made available for the general public. I have gone through the first three lectures as of now and although the sound i s a little bit shaky, the quality of the explanations more than make up for it. 
 * **Deep learning tutorial by LISA Lab, University of Montreal :** This tutorial gives hands-on experience with deep learning by using Theano, a Python based library for GPU based computations which speeds up training of deep learning based models greatly. This tutorial provides a brief introduction to the basics of machine learning and then moves on to explaining different deep learning algorithms. 
 * **Unsupervised feature learning and deep learning tutorial, Stanford University:**
+
+Besides these, there are several great resources to be found at [deeplearning.net](https://www.deeplearning.net) as well as in this git repository [awesome deep learning]().
+
+Hope you have a great experience learning about deep learning.
