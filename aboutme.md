@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Short bio
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Shashank Shekhar. I did my bachelor's in Electronics and Communication Engineering from Indian Institute Of Technology (ISM) Dhanbad.
+After that I worked at Samsung Research Institute Delhi for a while before joining the Visual Computing Lab at Department Of Computational and Data Science at Indian Institute Of Science Bangalore where I currently work as a research assistant. My broad field of interest is artificial intelligence with particular interests in computer vision and reinforcement learning.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+#### More to be added soon
