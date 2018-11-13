@@ -4,4 +4,4 @@ title: Projects
 subtitle: Short summaries and links to my projects
 ---
 
-#### More to be follow soon
+#### Under construction. Please refer to the resume in the meanwhile
