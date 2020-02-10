@@ -1,6 +1,6 @@
 ---
-title: Projects
-subtitle: Short summaries and links to my projects
+title: Research and Projects
+subtitle: Short summaries and links to my research work and projects
 layout: page
 permalink: /projects/
 ---
@@ -9,14 +9,14 @@ A list of some of the projects and other stuff I have worked on:
 
 ---
 
-## Tinyla
+## Tiny-la
 
 As part of my graduate scientific computing course I developed a bare-bones C library for numerical linear algebra operations. The library includes the following linear algebrea routines:  
 
 * Singular Value Decomposition
 * Arnoldi iteration
-* Sparse matrix support in CSR format
-* 
+* Sparse matrix support in CSR format  
+
 TinyLA is available at the following GitHub repository: [TinyLA](https://github.com/sshkhr/tinyla)
 
 ---
