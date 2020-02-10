@@ -9,14 +9,15 @@ A list of some of the projects and other stuff I have worked on:
 
 ---
 
-## Paper Presentations
+## Tinyla
 
-I gave two presentations as part of a course on **Advances in the Theory of Deep Learning (Fall 2019)** at IIT Madras. Here are the slides:
+As part of my graduate scientific computing course I developed a bare-bones C library for numerical linear algebra operations. The library includes the following linear algebrea routines:  
 
-* Slides: [Lazy Training in Differentiable Programming](https://drive.google.com/file/d/1YUW5AvH188xQkfEgrBLsKm69JKnahP_r/view?usp=sharing)
-   - Paper: Chizat, Lenaic, and Francis Bach. "A note on lazy training in supervised differentiable programming." [arXiv:1812.07956](https://arxiv.org/abs/1812.07956) (2018).
-* Slides: [Adversarial Examples are not Bugs, They are Features](https://drive.google.com/file/d/1h8Hn6XX9mBvIVbBEPCy6qtyczMYYuvQ8/view?usp=sharing)
-  - Paper: Ilyas, Andrew, et al. "Adversarial examples are not bugs, they are features." [arXiv:1905.02175](https://arxiv.org/abs/1905.02175) (2019).
+* Singular Value Decomposition
+* Arnoldi iteration
+* Sparse matrix support in CSR format
+* 
+TinyLA is available at the following GitHub repository: [TinyLA](https://github.com/sshkhr/tinyla)
 
 ---
 
