@@ -7,6 +7,10 @@ permalink: /projects/
 
 A list of some of the projects and other stuff I have worked on:
 
+_Under construction. Please check back after ECCV deadline (March 5, 2020)_
+
+
+<!---
 ---
 
 ## Tiny-la
@@ -74,3 +78,4 @@ By playing around with the parameters like gravity strength, restitution and usi
 I analyse the Caesar and Vigenere ciphers, and explore methods of cracking them including frequency analysis and the [Kasiki examination](https://en.wikipedia.org/wiki/Kasiski_examination). The code was written in python using a jupyter notebook. You can find it in the repo [here](https://github.com/rajatvd/Cryptanalysis).
 
 ---
+--->
