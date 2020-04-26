@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink:
 author_profile: true
 redirect_from:
   - /resume
@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my CV in a pdf format (current as of April 2020):
+Here is my CV in a pdf format:
 
-<a href="sshkhr.github.io/files/Shashank_Shekhar_CV.pdf" target="_blank">PDF.</a>
+<a href="files/Shashank_Shekhar_CV.pdf" target="_blank">Academic CV (current as of April 2020)</a>
