@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-Here is my CV in a pdf format:
+Here is my Academic CV in a pdf format (current as of April 2020):
 
-<a href="sshkhr.github.io/files/Shashank_Shekhar_CV.pdf" target="_blank">Academic CV (current as of April 2020)</a>
+<embed src="https://sshkhr.github.io/files/Shashank_Shekhar_CV.pdf" type="application/pdf" width="600px" height="500px" />
