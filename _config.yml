@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Shashank Shekhar"
   avatar           : "shashank.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Masters in AI at University of Guelph, Vector Institute"
   location         : "Ontario, Canada"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -185,7 +185,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
