@@ -11,4 +11,4 @@ redirect_from:
 
 Here is my CV in a pdf format (current as of April 2020):
 
-{{ site.baseurl }}/files/Shashank_Shekhar_CV.pdf
+{{ site.url }}/files/Shashank_Shekhar_CV.pdf
