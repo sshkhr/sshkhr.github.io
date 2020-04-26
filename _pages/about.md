@@ -18,4 +18,6 @@ Going back further, I did my bachelor's in Electronics and Communication Enginee
 
 My master's research is focused on visual representation learning. Some of the topics I'm currently working on are: resource efficient learning (few/zero-shot learning and knowledge distillation), learning disentangled representations, building dynamic inference models, and explainability of AI decision-making using methods from cognitive science. I am a huge proponent of self-study as a lot of my knowledge about AI comes from online courses.
 
-This portfolio and blog section is still under construction. Your patience is greatly appreciated!
+### Q. What's with the weird blog name?
+
+It's supposed to be a play on two iconic hip-hop songs: New York State of Mind by Nas and Empire State of Mind by Jay-Z (if you couldn't tell I'm a huge hip-hop nerd). I also thought it fit well into the theme of AI and cognitive science topics which I (plan to) write about.
