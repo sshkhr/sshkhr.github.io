@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/2018-11-02-bigdata-mrcnn-01
 excerpt: ''
 date: 2018-11-02
-venue: 'IEEE BigData Cup workshop'
-paperurl: 'https://arxiv.org/abs/1811.04535'
+venue: 'IEEE BigData Cup 2018 workshop'
+paperurl: ''
 citation: ''
 ---
 
