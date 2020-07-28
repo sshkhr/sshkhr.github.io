@@ -1,12 +1,11 @@
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
-%matplotlib inline
-
-font = {'size'   : 20}
-matplotlib.rc('font', **font)
-```
+---
+title: 'A deep dive into Neural ODEs (with math and code in Pytorch)'
+date: 2020-07-28
+permalink: /posts/2020/05/ai-cogsci
+tags:
+  - Pytorch
+  - Maths
+---
 
 Differential equations: Useful to model time evolution of states in unknown system
 
