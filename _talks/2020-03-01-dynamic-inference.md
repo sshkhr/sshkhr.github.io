@@ -8,6 +8,6 @@ date: 2020-03-01
 location: "Ontario, Canada"
 ---
 
-I gave a talk on dynamic inference models in deep learning i.e. models that can perform a variable amount of computation depending on the input complexity. Slides are embedded below and available [here](https://sshkhr.github.io/files/dynamic-inference-models.pdf):  
+I gave a talk on dynamic inference models in deep learning i.e. models that can perform a variable amount of computation depending on the input complexity. Slides available:  
 
 <embed src="https://sshkhr.github.io/files/dynamic-inference-models.pdf" type="application/pdf" width="254px" height="143px" />
