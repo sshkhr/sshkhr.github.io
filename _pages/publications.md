@@ -55,8 +55,6 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
             {{ post.excerpt }}
           </td>
         </tr>
-        {% endif %}
-        {% endfor %}
         {% endfor %}
       </table>
     </td>
