@@ -20,7 +20,7 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
         {% for post in site.publications reversed %}
         <tr>
           <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-            <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
           </td>
           <td style="padding:2.5%;width:75%;vertical-align:middle">
             <h3>{{post.title}}</h3>
