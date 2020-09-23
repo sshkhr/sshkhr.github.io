@@ -12,14 +12,14 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
 
 \* denotes equal contribution
 
-<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px,cellpadding:0px,cellspacing:0px;">
+<table style="width:100%;max-width:800px;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px;cellpadding:0px;cellspacing:0px;">
   <tr style="padding:0px">
     <td style="padding:0px">
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px;">
+      <table style="width:100%;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px;">
 
         {% for post in site.publications reversed %}
         <tr>
-          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:100px">
             <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
           </td>
           <td style="padding:2.5%;width:75%;vertical-align:middle">
