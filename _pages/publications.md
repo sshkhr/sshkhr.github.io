@@ -6,9 +6,7 @@ author_profile: true
 ---
 
 
-You can find my papers at <u><a href="https://scholar.google.fr/citations?user=UpV5wyYAAAAJ&hl=en">my Google Scholar profile</a>.</u>
-
-{% include base_path %}
+For the most up-to-date list of publications please refer to [my Google Scholar profile](https://scholar.google.fr/citations?user=UpV5wyYAAAAJ&hl=en)
 
 \* denotes equal contribution
 
