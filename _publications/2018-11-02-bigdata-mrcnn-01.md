@@ -9,7 +9,7 @@ pdf: 'https://arxiv.org/abs/1811.04535'
 paperurl: ''
 citation: ''
 authors: 'Janpreet Singh*, _Shashank Shekhar_*'
-image: '/images/mrcnn-road.png' 
+image: 'images/mrcnn-road.png' 
 
 ---
 
