@@ -8,8 +8,8 @@ venue: 'IEEE BigData Cup 2018 workshop'
 pdf: 'https://arxiv.org/abs/1811.04535'
 paperurl: ''
 citation: ''
-authors: 'Janpreet Singh*, Shashank Shekhar*'
-image: '/images/p1-mask-rcnn.png' 
+authors: 'Janpreet Singh*, _Shashank Shekhar_*'
+image: '/images/mrcnn-road.png' 
 
 ---
 

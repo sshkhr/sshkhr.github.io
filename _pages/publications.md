@@ -12,6 +12,4 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
 
 \* denotes equal contribution
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include archive-publication.html %}
