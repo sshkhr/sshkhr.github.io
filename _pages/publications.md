@@ -12,10 +12,10 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
 
 \* denotes equal contribution
 
-<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
   <tr style="padding:0px">
     <td style="padding:0px">
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;">
 
         {% for post in site.publications reversed %}
         <tr>
@@ -31,28 +31,27 @@ You can find my papers at <u><a href="https://scholar.google.fr/citations?user=U
             <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
             <br>
             {% if post.paperurl %}
-            <a href="{{post.pdf}}">Paper</a> /
+            [<a href="{{post.pdf}}">Paper</a>]
             {% endif %}
             {% if post.page %}
-            <a href="{{post.page}}">Project Page</a> /
+            [<a href="{{post.page}}">Project Page</a>]
             {% endif %}
             {% if post.video %}
-            <a href="{{post.video}}">Video</a> /
+            [<a href="{{post.video}}">Video</a>]
             {% endif %}
             {% if post.code %}
-            <a href="{{post.code}}">Code</a> /
+            [<a href="{{post.code}}">Code</a>]
             {% endif %}
             {% if post.poster %}
-            <a href="{{post.poster}}">Poster</a> /
+            [<a href="{{post.poster}}">Poster</a>]
             {% endif %}
             {% if post.slides %}
-            <a href="{{post.slides}}">Slides</a> /
+            [<a href="{{post.slides}}">Slides</a>]
             {% endif %}
             {% if post.dataset %}
-            <a href="{{post.dataset}}">Dataset</a> /
+            [<a href="{{post.dataset}}">Dataset</a>]
             {% endif %}
             <p></p>
-            {{ post.excerpt }}
           </td>
         </tr>
         {% endfor %}
