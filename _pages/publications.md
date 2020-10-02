@@ -10,7 +10,7 @@ For the most up-to-date list of publications please refer to [my Google Scholar 
 
 \* denotes equal contribution
 
-<table style="width:100%;max-width:800px;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px;cellpadding:0px;cellspacing:0px;">
+<table style="width:100%;max-width:800px;border:none;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:0px;cellpadding:0px;cellspacing:0px;border-bottom-width:0px;border-right-width:0px;">
   <tr style="padding:0px">
     <td style="padding:0px;border-bottom-width:0px;border-right-width:0px;">
       <table style="width:100%;border:none;border-spacing:0px;border-collapse:collapse;margin-right: auto;0px;">
