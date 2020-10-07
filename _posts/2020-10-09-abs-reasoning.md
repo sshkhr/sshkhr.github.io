@@ -21,8 +21,8 @@ Generalisation has proven to be a very hard nut to crack for artificial intellig
 When the test and train data are from different 'domains' then the problem of generalisation is referred to as domain adaptation. What does different domains mean? Think of it as having the training data and test data from different probability distributions: 
 
 \begin{aligned}
-\text{train data} \ X \sim P(x_1,x_2,...,x_n) \\
-\text{test data} \ Y \sim G(x_1,x_2,....,x_n) \\
+\text{train data} \ X \sim P(x_1,x_2,...,x_n)   \\
+\text{test data} \ Y \sim G(x_1,x_2,....,x_n)   \\
 \end{aligned}
 
 
@@ -36,10 +36,10 @@ How different can these distributions be? In most research use-cases they are no
 If you think of the underlying distribution to factored along a certain number of latent variables usually domain adaptation involves adapting to the change in distribution of one (or a few) of the latent variables:
 
 \begin{aligned}
-\text{train data} \ X &\sim P(x_1,x_2,...,x_n) \\
-\Rightarrow X &\sim p_1(x_1)p_2(x_2)...p_k(x_k)...p_n(x_n) \\
-\text{test data} \ Y &\sim G(x_1,x_2,....,x_n) \\
-\Rightarrow Y &\sim p_1(x_1)p_2(x_2)...g_k(x_k)...p_n(x_n) \\
+\text{train data} \ X &\sim P(x_1,x_2,...,x_n)  \\
+\Rightarrow X &\sim p_1(x_1)p_2(x_2)...p_k(x_k)...p_n(x_n)  \\
+\text{test data} \ Y &\sim G(x_1,x_2,....,x_n)  \\
+\Rightarrow Y &\sim p_1(x_1)p_2(x_2)...g_k(x_k)...p_n(x_n)  \\
 \end{aligned}
 
 In the case of the bike examples shown above think of $x_k$ as a variable representing backgrounds where $p_k$ is a distribution of clear backgrounds and $g_k$ is a distribution of cluttered backgrounds. In several applications this change in distribution can be modelled simply as a change in the mean of $p_k$ or a similar small change.
@@ -56,7 +56,7 @@ A lot of human intelligence is compositional in nature. In order to explain comp
 6. Flight(Frankfurt->Toronto) 
 7. Drive(Toronto airport->Guelph)
 
-|![concept_gen](absreason/concept.png?raw=true)| 
+|![concept_gen](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/concept.png?raw=true)| 
 |:--:| 
 | *Image source: [Lake and Baroni](http://proceedings.mlr.press/v80/lake18a)* |
 
@@ -95,7 +95,7 @@ You might've used some (or all) of these reasoning arguments to conclude that th
 
 In their paper "Measuring abstract reasoning in neural networks" [2], Barrett, Hill and Santoro released a machine-learning scale RPM dataset. This dataset (dubbed Procedurally Generated Matrices or PGM for short) contained a whopping 1.4 million RPM problems. An example of such a problem is shown below:
 
-|![image.png](absreason/pgm.png?raw=true)| 
+|![pgm](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/pgm.png?raw=true)| 
 |:--:| 
 | *Image source: [Barrett et al](http://proceedings.mlr.press/v80/barrett18a.html)* |
 
