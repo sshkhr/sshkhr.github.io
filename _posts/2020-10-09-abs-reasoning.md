@@ -1,3 +1,14 @@
+---
+title: 'Abstract reasoning and deep learning's limits in performing conceptual generalisation'
+date: 2020-10-07
+permalink: /posts/2020/10/abs-reasoning
+tags:
+  - Cognitive Science
+  - Deep Learning
+  - Reasoning
+  - Computer Vision
+---
+
 _In this blog post I will go over the problem of abstract visual reasoning; which has recently emerged as a challenging domain for machine learning tasks. Before I do that I will explain the issues with 'conceptual' generalisation in machine learning._
 
 _After that, I will explain the problem setting of Raven's Progressive Matrices which serve as a test-bed for abstract reasoning ability, discuss two datasets released for machine learning research on this problem, go through a couple of the models with code in Pytorch and leave you with some open questions. Hopefully this blog post generates as much of an interest in this problem as it did for me while reading these papers. Let's dive right in!_
@@ -48,17 +59,20 @@ A lot of human intelligence is compositional in nature. In order to explain comp
 6. Flight(Frankfurt->Toronto) 
 7. Drive(Toronto airport->Guelph)
 
-You'll notice that several basic steps (driving, catching a flight, changing terminals) are brought together in a certain way in order to complete a seemingly daunting task of travelling over 10000 kilometers from India to Canada (which, by the way, I had never done before)! This is the idea behind compositional generalisation: being able to understand previously seen basic concepts when they are brought together in novel unseen ways. This is demonstrated in the image below:
+You'll notice that several basic steps (driving, catching a flight, changing terminals) are brought together in a certain way in order to complete a seemingly daunting task of travelling over 10000 kilometers from India to Canada (which, by the way, I had never done before)! This is the idea behind compositional generalisation: being able to understand previously seen basic concepts when they are brought together in novel unseen ways. This is demonstrated in the image below. You might've never seen such a vehicle before but by putting together its components you could easily tell that it's a vehicle.
 
 ![concept_gen](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/concept.png?raw=true)
 <p style="text-align: center;">Image Source: <a href="http://proceedings.mlr.press/v80/lake18a">Lake and Baroni</a></p>
 
+In terms of the original domain adaptation formulation, we can think of compositional generalisation as the case where we are expected to perform zero-shot generalisation (test case previously unseen) to an example from a distribution where the 'semantics' of the underlying variables remain the same.
+
 
 ### Systematic generalisation
 
-Systematic generalisation can be seen as a superset of compositional generalisation. Besides generalising to novel compositions of previously seen concepts, we would like our models to generalise from few->more instances of the same concepts and vice versa.
+Systematic generalisation can be seen as a superset of compositional generalisation. Besides generalising to novel compositions of previously seen concepts, we would like our models to generalise from few->more instances of the same concepts and vice versa. While the difference between systematic generalisation versus compositional generalisation is not very clear in the artificial intelligence community there seems to be a lot of consensus that the ability of AI models to perform such generalisation is going to be at the core of more 'general' artificial intelligence models.
 
-
+![image.png](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/systematic.png?raw=true)
+<p style="text-align: center;">Image Source: <a href="https://arxiv.org/pdf/1912.05783.pdf">Bahdanau et al</a></p>
 
 # 2. Abstract Reasoning and Raven's Progressive Matrices
 
@@ -91,197 +105,16 @@ In their paper "Measuring abstract reasoning in neural networks" [2], Barrett, H
 <p style="text-align: center;">Image Source: <a href="http://proceedings.mlr.press/v80/barrett18a.html">Barrett et al</a></p>
 
 
-
-```python
-from glob import glob
-import numpy as np
-import os
-import matplotlib.pyplot as plt
-
-%matplotlib inline
-```
-
-
-```python
-folder = "/mnt/data/sshekhar/Reasoning/data/PGM/"
-```
-
-## Neutral
-
-
-```python
-data = np.load(folder+"neutral/PGM_neutral_train_1073149.npz")
-```
-
-
-```python
-data
-```
-
-
-
-
-    <numpy.lib.npyio.NpzFile at 0x7f4e519f8210>
-
-
-
-
-```python
-data.files
-```
-
-
-
-
-    ['target',
-     'image',
-     'relation_structure_encoded',
-     'relation_structure',
-     'meta_target']
-
-
-
-
-```python
-data['image'].shape
-```
-
-
-
-
-    (160, 160, 16)
-
-
-
-
-```python
-data['target']
-```
-
-
-
-
-    array(0)
-
-
-
-
-```python
-data['meta_target']
-```
-
-
-
-
-    array([1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0])
-
-
-
-
-```python
-data['relation_structure']
-```
-
-
-
-
-    array([[b'shape', b'position', b'OR'],
-           [b'line', b'type', b'OR']], dtype='|S8')
-
-
-
-
-```python
-data['relation_structure_encoded']
-```
-
-
-
-
-    array([[1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
-           [0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0],
-           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])
-
-
-
-
-```python
-image = data["image"].reshape(16, 160, 160)
-
-
-# Plot 8 PGM matrices
-
-matfig, mataxs = plt.subplots(3, 3)
-
-plt.setp(mataxs, xticks=[], yticks=[])
-
-row = 0
-col = 0
-
-for i in range(8):
-
-    mataxs[row, col].imshow(image[i], cmap="gray")
-
-    col +=1
-
-    if(col%3==0):
-        col = 0
-        row += 1
-        
-blank = 255 * np.ones_like(image[0], np.uint8)
-        
-mataxs[2, 2].imshow(blank, cmap='gray',vmin=0,vmax=1)
-
-## Box
-autoAxis = mataxs[2, 2].axis()
-rec = plt.Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4,fill=False,lw=2, color="r")
-rec = mataxs[2, 2].add_patch(rec)
-rec.set_clip_on(False)
-        
-plt.show()
-```
-
-
-![png](output_21_0.png)
-
-
-
-```python
-config, conaxs = plt.subplots(2, 4)
-
-plt.setp(conaxs, xticks=[], yticks=[])
-
-row, col = 0, 0
-
-for i in range(8, 16):
-
-    conaxs[row, col].imshow(image[i], cmap="gray")
-
-    col +=1
-
-    if(col%4==0):
-        col = 0
-        row += 1
-        
-## Box
-autoAxis = conaxs[0, 0].axis()
-rec = plt.Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4,fill=False,lw=2, color="r")
-rec = conaxs[0, 0].add_patch(rec)
-rec.set_clip_on(False)
-
-        
-plt.show()
-```
-
-
-![png](output_22_0.png)
-
-
 ## References
 
-[1] Lake, Brenden, and Marco Baroni. "Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks." International Conference on Machine Learning. PMLR, 2018.
+[1] Lake, Brenden M., Ruslan Salakhutdinov, and Joshua B. Tenenbaum. "Human-level concept learning through probabilistic program induction." Science 350.6266 (2015): 1332-1338.
 
-[2] Raven, J. C. et al. Raven’s progressive matrices. Western Psychological Services, 1938.
+[2] Lake, Brenden, and Marco Baroni. "Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks." International Conference on Machine Learning. PMLR, 2018.
 
-[3] Barrett, David, et al. "Measuring abstract reasoning in neural networks." International Conference on Machine Learning. 2018.
+[3] Bahdanau, Dzmitry, et al. "CLOSURE: Assessing Systematic Generalization of CLEVR Models." arXiv preprint arXiv:1912.05783 (2019).
+
+[4] Raven, J. C. et al. Raven’s progressive matrices. Western Psychological Services, 1938.
+
+[5] Barrett, David, et al. "Measuring abstract reasoning in neural networks." International Conference on Machine Learning. 2018.
+
+[6] Zhang, Chi, et al. "Raven: A dataset for relational and analogical visual reasoning." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019.
