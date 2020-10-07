@@ -1,7 +1,7 @@
 ---
 title: 'A deep dive into Neural ODEs (with math and code in Pytorch)'
 date: 2020-07-28
-permalink: /posts/2020/05/ai-cogsci
+permalink: /posts/2020/05/neural-ode
 tags:
   - Pytorch
   - Maths
