@@ -1,14 +1,3 @@
----
-title: 'Abstract Reasoning and Conceptual Generalisation limits of deep learning'
-date: 2020-10-07
-permalink: /posts/2020/10/abs-reasoning
-tags:
-  - Cognitive Science
-  - Deep Learning
-  - Reasoning
-  - Computer Vision
----
-
 _In this blog post I will go over the problem of abstract visual reasoning; which has recently emerged as a challenging domain for machine learning tasks. Before I do that I will explain the issues with 'conceptual' generalisation in machine learning._
 
 _After that, I will explain the problem setting of Raven's Progressive Matrices which serve as a test-bed for abstract reasoning ability, discuss two datasets released for machine learning research on this problem, go through a couple of the models with code in Pytorch and leave you with some open questions. Hopefully this blog post generates as much of an interest in this problem as it did for me while reading these papers. Let's dive right in!_
@@ -20,27 +9,30 @@ Generalisation has proven to be a very hard nut to crack for artificial intellig
 ### Domain adaptation 
 When the test and train data are from different 'domains' then the problem of generalisation is referred to as domain adaptation. What does different domains mean? Think of it as having the training data and test data from different probability distributions: 
 
+$$
 \begin{aligned}
-\text{train data} \ X \sim P(x_1,x_2,...,x_n)   \\
-\text{test data} \ Y \sim G(x_1,x_2,....,x_n)   \\
+\text{train data} \ X \sim P(x_1,x_2,...,x_n) \\
+\text{test data} \ Y \sim G(x_1,x_2,....,x_n) \\
 \end{aligned}
-
+$$
 
 How different can these distributions be? In most research use-cases they are not that different. For example take the case of images:
 
-| ![Domain adaptation from clear to cluttered backgrounds](https://ruder.io/content/images/2017/03/visual_domain_adaptation_bikes.png)| 
-|:--:| 
-| *Image source: [Sebastien Ruder's blog](https://ruder.io/transfer-learning/)* |
+![Domain adaptation from clear to cluttered backgrounds](https://ruder.io/content/images/2017/03/visual_domain_adaptation_bikes.png)
+<p style="text-align: center;">Image source: <a href="https://ruder.io/transfer-learning/">Sebastien Ruder's blog</a></p>
+
 
 
 If you think of the underlying distribution to factored along a certain number of latent variables usually domain adaptation involves adapting to the change in distribution of one (or a few) of the latent variables:
 
+$$
 \begin{aligned}
-\text{train data} \ X &\sim P(x_1,x_2,...,x_n)  \\
-\Rightarrow X &\sim p_1(x_1)p_2(x_2)...p_k(x_k)...p_n(x_n)  \\
-\text{test data} \ Y &\sim G(x_1,x_2,....,x_n)  \\
-\Rightarrow Y &\sim p_1(x_1)p_2(x_2)...g_k(x_k)...p_n(x_n)  \\
+\text{train data} \ X &\sim P(x_1,x_2,...,x_n) \\
+\Rightarrow X &\sim p_1(x_1)p_2(x_2)...p_k(x_k)...p_n(x_n) \\
+\text{test data} \ Y &\sim G(x_1,x_2,....,x_n) \\
+\Rightarrow Y &\sim p_1(x_1)p_2(x_2)...g_k(x_k)...p_n(x_n) \\
 \end{aligned}
+$$
 
 In the case of the bike examples shown above think of $x_k$ as a variable representing backgrounds where $p_k$ is a distribution of clear backgrounds and $g_k$ is a distribution of cluttered backgrounds. In several applications this change in distribution can be modelled simply as a change in the mean of $p_k$ or a similar small change.
 
@@ -56,15 +48,15 @@ A lot of human intelligence is compositional in nature. In order to explain comp
 6. Flight(Frankfurt->Toronto) 
 7. Drive(Toronto airport->Guelph)
 
-|![concept_gen](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/concept.png?raw=true)| 
-|:--:| 
-| *Image source: [Lake and Baroni](http://proceedings.mlr.press/v80/lake18a)* |
+You'll notice that several basic steps (driving, catching a flight, changing terminals) are brought together in a certain way in order to complete a seemingly daunting task of travelling over 10000 kilometers from India to Canada (which, by the way, I had never done before)! This is the idea behind compositional generalisation: being able to understand previously seen basic concepts when they are brought together in novel unseen ways. This is demonstrated in the image below:
 
+![concept_gen](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/concept.png?raw=true)
+<p style="text-align: center;">Image Source: <a href="http://proceedings.mlr.press/v80/lake18a">Lake and Baroni</a></p>
 
-
-You'll notice that several basic steps (driving, catching a flight, changing terminals) are brought together in a certain way in order to complete a seemingly daunting task of travelling over 10000 kilometers from India to Canada (which, by the way, I had never done before)! This is the idea behind compositional generalisation: being able to understand previously seen basic concepts when they are brought together in novel unseen ways. 
 
 ### Systematic generalisation
+
+Systematic generalisation can be seen as a superset of compositional generalisation. Besides generalising to novel compositions of previously seen concepts, we would like our models to generalise from few->more instances of the same concepts and vice versa.
 
 
 
@@ -95,9 +87,9 @@ You might've used some (or all) of these reasoning arguments to conclude that th
 
 In their paper "Measuring abstract reasoning in neural networks" [2], Barrett, Hill and Santoro released a machine-learning scale RPM dataset. This dataset (dubbed Procedurally Generated Matrices or PGM for short) contained a whopping 1.4 million RPM problems. An example of such a problem is shown below:
 
-|![pgm](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/pgm.png?raw=true)| 
-|:--:| 
-| *Image source: [Barrett et al](http://proceedings.mlr.press/v80/barrett18a.html)* |
+![rpm](https://github.com/sshkhr/sshkhr.github.io/blob/master/_posts/absreason/pgm.png?raw=true) 
+<p style="text-align: center;">Image Source: <a href="http://proceedings.mlr.press/v80/barrett18a.html">Barrett et al</a></p>
+
 
 
 ```python
@@ -251,7 +243,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png?raw=true)
+![png](output_21_0.png)
 
 
 
@@ -283,7 +275,7 @@ plt.show()
 ```
 
 
-![png](output_22_0.png?raw=true)
+![png](output_22_0.png)
 
 
 ## References
