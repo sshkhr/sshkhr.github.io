@@ -1,7 +1,7 @@
 ---
 title: 'Abstract reasoning and deep learning's limits in performing conceptual generalisation'
 date: 2020-10-07
-permalink: /posts/2020/10/abs-reasoning
+permalink: /posts/2020/10/abs-reasoning/
 tags:
   - Cognitive Science
   - Deep Learning
