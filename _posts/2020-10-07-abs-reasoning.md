@@ -1,5 +1,5 @@
 ---
-title: 'Abstract reasoning and deep learning's limits in performing conceptual generalisation'
+title: 'Abstract reasoning and conceptual generalisation in deep learning'
 date: 2020-10-07
 permalink: /posts/2020/10/abs-reasoning/
 tags:
@@ -8,7 +8,6 @@ tags:
   - Reasoning
   - Computer Vision
 ---
-
 _In this blog post I will go over the problem of abstract visual reasoning; which has recently emerged as a challenging domain for machine learning tasks. Before I do that I will explain the issues with 'conceptual' generalisation in machine learning._
 
 _After that, I will explain the problem setting of Raven's Progressive Matrices which serve as a test-bed for abstract reasoning ability, discuss two datasets released for machine learning research on this problem, go through a couple of the models with code in Pytorch and leave you with some open questions. Hopefully this blog post generates as much of an interest in this problem as it did for me while reading these papers. Let's dive right in!_
