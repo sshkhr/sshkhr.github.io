@@ -21,7 +21,7 @@ Expected tensor for argument #1 'input' to have the same device as tensor for ar
 
 # A working example
 
-Suppose I have a small feedforward Residual module which also takes a parameter called `add_output`. If `add_output==True` then a small auxilliary classifier is attached to the Residual module so as not only feedforward 
+Suppose I have a small feedforward Residual module which also takes a parameter called `add_output`. If `add_output==True` then a small auxilliary classifier is attached to the Residual module so as not only feedforward the input but also return classification outputs. The Pytorch code for doing this is shown below:
 
  ```python
 import torch
