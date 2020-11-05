@@ -8,16 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-Hello there, internet friend! You have stumbled upon Shashank's personal website. Please feel free to look around.
+Hello! I am a researcher in computer vision and machine learning. My present research focus is explainable artificial intelligence and cognitive-science inspired computer vision. I blog about similar topics and also maths and programming in general.
 
-Presently, I am pursuing my master's at the University of Guelph. I am enrolled in the [collaborative specialization in artificial intelligence](https://www.uoguelph.ca/ceps/csai) where I am free to take courses in maths, statistics, computer science, and engineering. Needless to say, I'm having a great time during my master's. This is also facilitated by the fact that I have an excellent mentor in my thesis advisor [Prof Graham Taylor](https://www.gwtaylor.ca/) as well as an extremely stimulating environment for AI research at the [Vector Institute](https://vectorinstitute.ai/).
+Presently, I am a master's student at the University of Guelph and Vector Institute. I am working with [Prof Graham Taylor](https://www.gwtaylor.ca/) at the Machine Learning Research Group. Before this, I was a research assistant at the [Visual Computing Lab](http://visual-computing.in/home/) at the Indian Institute Of Science working with [Prof Anirban Chakraborty](http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html) and [Prof Anand Mishra](https://anandmishra22.github.io/). I did my bachelor's in Electronics and Communication Engineering from Indian Institute Of Technology (ISM) Dhanbad in 2017. I have also spent time working in the industry at Samsung Research Institute Delhi, Shell R&D Center Bangalore, HyperWorks Imaging Bangalore for a total of two years.
 
-Before starting my master's, I spent a year and a half working as a research assistant at the [Visual Computing Lab](http://visual-computing.in/home/) at the Department Of Computational and Data Sciences at Indian Institute Of Science. I was quite lucky to have excellent mentors in [Prof Anirban Chakraborty](http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html) and [Prof Anand Mishra](https://anandmishra22.github.io/) (who is now at Indian Institute of Technology, Jodhpur)
+## News
 
-Going back further, I did my bachelor's in Electronics and Communication Engineering from Indian Institute Of Technology (ISM) Dhanbad in 2017. I also spent working in the industry at Samsung Research Institute Delhi, Shell R&D Center Bangalore, HyperWorks Imaging Bangalore for short stints.
+* **[Aug 2020:]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually
+* **[July 2020:]** Attended the CIFAR Deep Learning and Reinforcement Learning Summer School 2020 virtually 
+* **[June 2020:]** Our paper was accepted to CVPR 2020 Minds vs Machines Workshop for an oral presentation  
+* **[January 2020:]** Joined the Machine Learning Research Group at University of Guelph as a graduate research assistant  
+* **[Nov 2019:]** Volunteered and presented our work at the International Conference in Computer Vision 2019 in Seoul  
+* **[Sep 2019:]** Started masters in AI at the University of Guelph. Thankful to receive the Vector Scholarship in AI and JN Tata Scholarship   
+* **[Aug 2019:]** Attended the Bayeisan Methods in Deep Learning Summer School 2019 in Moscow  
+* **[July 2019:]** Attended the Machine Learning Summer School 2019 in London   
 
-My master's research is focused on visual representation learning. Some of the topics I'm currently working on are: resource efficient learning (few/zero-shot learning and knowledge distillation), learning disentangled representations, building dynamic inference models, and explainability of AI decision-making using methods from cognitive science. I am a huge proponent of self-study as a lot of my knowledge about AI comes from online courses.
 
 ### Q. What's with the weird blog name?
 
-It's supposed to be a play on two iconic hip-hop songs: New York State of Mind by Nas and Empire State of Mind by Jay-Z (if you couldn't tell I'm a huge hip-hop nerd). I also thought it fit well into the theme of AI and cognitive science topics which I (plan to) write about.
+Inspired from [1](https://en.wikipedia.org/wiki/N.Y._State_of_Mind) and [2](https://en.wikipedia.org/wiki/Empire_State_of_Mind)

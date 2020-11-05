@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-fall-learnai
 venue: "University of Toronto"
-date: 2020-01-01
+date: 2020-10-01
 location: "Toronto, Canada"
 ---
 
