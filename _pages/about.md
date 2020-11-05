@@ -20,8 +20,8 @@ Presently, I am a master's student at the University of Guelph and Vector Instit
 * <sub>**[June 2020]** Our paper was accepted to CVPR 2020 Minds vs Machines Workshop for an oral presentation</sub>  
 * <sub>**[Jan 2020]** Joined the Machine Learning Research Group at University of Guelph as a graduate research assistant</sub>  
 * <sub>**[Nov 2019]** Volunteered and presented our work at the International Conference in Computer Vision 2019 in Seoul</sub>  
-* <sub>**[Sep 2019]** Started masters in AI at the University of Guelph. Thankful to receive the Vector Scholarship in AI and JN Tata Scholarship</sub>   
-* <sub>**[Aug 2019]** Attended the Bayeisan Methods in Deep Learning Summer School 2019 in Moscow</sub>  
+* <sub>**[Sep 2019]** Started MASc in AI at the University of Guelph. Thankful to receive the Vector Scholarship and JN Tata Scholarship</sub>   
+* <sub>**[Aug 2019]** Attended the Bayesian Methods in Deep Learning Summer School 2019 in Moscow</sub>  
 * <sub>**[July 2019]** Attended the Machine Learning Summer School 2019 in London</sub>   
 
 
