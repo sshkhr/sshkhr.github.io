@@ -7,8 +7,140 @@ author_profile: true
 
 {% include base_path %}
 
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<body>
+  <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var heights = $(".column").map(function() {
+          return $(this).height();
+        }).get(),
 
+        maxHeight = Math.max.apply(null, heights);
+
+      $(".column").height(maxHeight);
+    });
+  </script>
+  <div class="container" style="width: 100%; height: 100vh;">
+    <div class="row text-center">
+      <h5>Label Key</h5>
+      <span class="label label-info">Language</span>
+      <span class="label label-success">Library</span>
+      <span class="label label-danger">API</span>
+      <span class="label label-warning">Hardware</span>
+      <span class="label label-primary">Life Skills</span>
+    </div>
+    <hr>
+      <div class="row">
+      <div class="col-md-12 column project-right">
+        <h4 class="hackname">TouchTone - Red Bull Hack the Hits</h4>
+        <h5 class="link"><a href="https://forbes.com/sites/matthunckler/2016/04/14/diversity-wins-big-at-first-ever-red-bull-hackathon/"><i class="fa fa-share"></i> Forbes Article about project</a></h5>
+        <h5 class="link"><a href="https://www.hcii.cmu.edu/news/2016/diversity-and-innovation-take-first-place-red-bull-hackathon"><i class="fa fa-newspaper-o"></i> HCII CMU Article</a></h5>
+        <hr>
+        <p>My team and I were one of 5 teams chosen globally to participate in the first Red Bull Hack the Hits hackathon in San Francisco, CA. We were the only out-of-state team, representing Pitt and CMU. We made TouchTone, an all-in-one string instrument that uses electric potential to convert physical pressure and location into any sound the user wants on four seperate MIDI channels. The user can also use hand motions to modulate the sound produced, as well as control visual effects for the entire concert venue. This hack won the hackathon and was featured in Forbes.</p>
+        <span class="label label-warning"><i class="fa fa-code"></i> Arduino</span>
+        <span class="label label-info"><i class="fa fa-street-view"></i> AVR-C</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 column project">
+        <h4 class="hackname">Pitt API</h4>
+          <h5 class="link"><a href="https://medium.com/steelhacks-pitt/making-an-api-for-pitt-95e188377833"><i class="fa fa-share"></i> Medium</a></h5>
+        <h5 class="link"><a href="https://github.com/Pitt-CSC/PittAPI"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <hr>
+        <p>The University of Pittsburgh is severely lacking in terms of the amount of data it makes open to the public. The Pitt API is a Python API aimed at allowing people to interface with scraped (and de-obfuscated) Pitt data, such as course data, computer lab data, and (a very hard fought battle) laundry machine data.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Python</span>
+      </div>
+      <div class="col-md-4 column project">
+        <h4 class="hackname">CardboardVision</h4>
+        <h5 class="link"><a href="https://github.com/RitwikGupta/CardboardVision"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <hr>
+        <p>CardboardVision was a hack made at TartanHacks 2015. The goal was to give visually-impaired people their depth perception back using split depth techniques. To do this, we used CV techniques of optical flow, background/foreground segmentation,
+          and corner detection. This could also be used to create 3D videos at a low cost.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Python</span>
+        <span class="label label-success"><i class="fa fa-eye"></i> OpenCV</span>
+        <span class="label label-warning"><i class="fa fa-google"></i> Cardboard</span>
+      </div>
+      <div class="col-md-4 column project-right">
+        <h4 class="hackname">OuijaBot</h4>
+        <h5 class="link"><a href="https://github.com/RitwikGupta/OuijaSpeech"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <h5 class="link"><a href="http://challengepost.com/software/ouijabot-of7ax"><i class="fa fa-share"></i> ChallengePost</a>
+        </h5>
+        <hr>
+        <p>OuijaBot was made at YHack 2014. Ouija boards are a fake way to communicate with the spirit world, so following the Halloween theme of YHack, my team and I developed a robot that you could talk to and it would actually answer your question by
+          spelling the answer out with a laser.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Python</span>
+        <span class="label label-danger"><i class="fa fa-google"></i> Speech-to-Text</span>
+        <span class="label label-warning"><i class="fa fa-cog"></i> Arduino</span>
+        <span class="label label-warning"><i class="fa fa-cog"></i> Intel Galileo</span>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 column project">
+        <h4 class="hackname">Crowdfree</h4>
+        <h5 class="link"><a href="https://github.com/RitwikGupta/Crowdfree-Android"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <hr>
+        <p>Crowdfree was made to solve a problem at the University of Pittsburgh: not knowing how big the line at Chipotle and other popular places on campus are. This Android app crowdsources line data from users and displays a wait time rating, allowing
+          people to spend more time eating than waiting.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Java</span>
+        <span class="label label-success"><i class="fa fa-coffee"></i> Spark</span>
+      </div>
+      <div class="col-md-4 column project">
+        <h4 class="hackname">TeslaJarvis</h4>
+        <h5 class="link"><a href="https://github.com/RitwikGupta/TeslaJarvis"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <h5 class="link"><a href="http://challengepost.com/software/teslajarvis"><i class="fa fa-share"></i> ChallengePost</a>
+        </h5>
+        <hr>
+        <p>TeslaJarvis was made at my first hackathon, MHacks IV. TeslaJarvis is an automation platform for Tesla Model S drivers. It will automatically gather weather data and location data and then perform actions on the car as necessary. The user can
+          select what features to enable.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Python</span>
+        <span class="label label-success"><i class="fa fa-coffee"></i> Flask</span>
+        <span class="label label-danger"><i class="fa fa-database"></i> NWS</span>
+        <span class="label label-danger"><i class="fa fa-car"></i> Tesla</span>
+      </div>
+      <div class="col-md-4 column project-right">
+        <h4 class="hackname">PAT Realtime Tracker</h4>
+        <h5 class="link"><a href="https://github.com/rectangle-dbmi/Realtime-Port-Authority"><i class="fa fa-github"></i> GitHub</a>
+        </h5>
+        <h5 class="link"><a href="https://play.google.com/store/apps/details?id=rectangledbmi.com.pittsburghrealtimetracker&hl=en"><i class="fa fa-google"></i> Play Store</a>
+        </h5>
+        <hr>
+        <p>Downloaded over 10,000 times, this Android app helps to get people out of the cold by tracking the public transit buses of Pittsburgh, PA in real-time. This is my first Android app, and one I'm proud of because it has an impact.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Java</span>
+        <span class="label label-danger"><i class="fa fa-google"></i> Google Maps</span>
+        <span class="label label-danger"><i class="fa fa-bus"></i> PAT</span>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 column project-right">
+        <h4 class="hackname">SteelHacks</h4>
+        <h5 class="link"><a href="http://steelhacks.com"><i class="fa fa-share"></i> SteelHacks</a></h5>
+        <h5 class="link"><a href="http://www.post-gazette.com/local/2015/03/29/Make-something-cool-SteelHacks-competition-sizzles-at-Pitt/stories/201503290154"><i class="fa fa-newspaper-o"></i> Post-Gazette</a></h5>
+        <h5 class="link"><a href="http://triblive.com/news/adminpage/8046833-74/computer-science-major"><i class="fa fa-newspaper-o"></i> Tribune Review</a></h5>
+        <hr>
+        <p>Head organizer and founder of SteelHacks, the first hackathon at the University of Pittsurgh. A Major League Hacking event, SteelHacks has been held twice in 2015 and 2016. My responsibilites include getting sponsors, getting the venue, handling event logistics, as well as leading teams of people in charge of design, outreach, and marketing.</p>
+        <span class="label label-info"><i class="fa fa-code"></i> Web</span>
+        <span class="label label-primary"><i class="fa fa-street-view"></i> Leadership</span>
+        <span class="label label-primary"><i class="fa fa-phone"></i> Outreach</span>
+        <span class="label label-primary"><i class="fa fa-dollar"></i> Budgeting</span>
+      </div>
+    </div>
+    <hr>
+  </div>
+</body>
