@@ -1,12 +1,16 @@
 ﻿---
 title: 'Writing your custom sort functions in C++'
-date: 2021-04-11
-permalink: /posts/2021/04/cpp-custom-sort/
+date: 2021-03-11
+permalink: /posts/2021/03/cpp-custom-sort/
 tags:
   - Algorithms
   - C++
 ---
-I decided to start programming in C++ again after a long time (end of 2017!!) because I was practising algorithm-style problems for job interviews and C++ seemed like a natural choice. It's Standard Template Library makes working with data structures very easy by providing a uniform api and inbuild data structures. A lot of the questions that I came across required me to overload the comparator operator in C++ `sort()` function since I was working with custom data structures. In this blog post I will quickly go over how to define your custome comprator based on two example cases.
+In this blog post I will quickly go over how to define your custom comparator for `sort()` for your data structure in C++ based on two example cases.
+
+
+I decided to start programming in C++ again after a long time (end of 2017!!) because I was practising algorithm-style problems for job interviews and C++ seemed like a natural choice. It's Standard Template Library makes working with data structures very easy by providing a uniform api and inbuild data structures. I noticed that a lot of the questions that I came across required me to overload the comparator operator in C++ `sort()` function since I was working with custom data structures. Next, I will mention two example cases of such problems and how I went around writing the sort comparator for my requirements.
+
 
 # Case 1. Sort a `vector<vector<int>>` based on two different conditions
 
