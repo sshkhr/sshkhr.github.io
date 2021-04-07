@@ -15,6 +15,8 @@ Presently, I am a master's student at the University of Guelph and Vector Instit
 ## News
 
 
+* <sub>**[April 2021]** Started as a Scientist in Residence for the NEXT AI startup accelerator</sub>
+* <sub>**[Oct 2020]** Started as an instructor for LearnAI course at the University of Toronto</sub>
 * <sub>**[Aug 2020]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually</sub>
 * <sub>**[July 2020]** Attended the CIFAR Deep Learning and Reinforcement Learning Summer School 2020 virtually</sub> 
 * <sub>**[June 2020]** Our paper was accepted to CVPR 2020 Minds vs Machines Workshop for an oral presentation</sub>  
