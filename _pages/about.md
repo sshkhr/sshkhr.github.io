@@ -23,15 +23,16 @@ Presently, I am an AI Resident at Facebook AI Research working with [Dr. Ari Mor
 <details>
 <summary><b>Click here for older news</b></summary>
 
-* <sub>**[Oct 2020]** Started as an instructor for LearnAI course at the University of Toronto</sub>  
-* <sub>**[Aug 2020]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually</sub>  
-* <sub>**[July 2020]** Attended the CIFAR Deep Learning and Reinforcement Learning Summer School 2020 virtually</sub>  
-* <sub>**[June 2020]** Our paper was accepted to CVPR 2020 Minds vs Machines Workshop for an oral presentation</sub>  
-* <sub>**[Jan 2020]** Joined the Machine Learning Research Group at University of Guelph as a graduate research assistant</sub>  
-* <sub>**[Nov 2019]** Volunteered and presented our work at the International Conference in Computer Vision 2019 in Seoul</sub>  
-* <sub>**[Sep 2019]** Started MASc in AI at the University of Guelph. Thankful to receive the Vector Scholarship and JN Tata Scholarship</sub>   
-* <sub>**[Aug 2019]** Attended the Bayesian Methods in Deep Learning Summer School 2019 in Moscow</sub>  
-* <sub>**[July 2019]** Attended the Machine Learning Summer School 2019 in London</sub>   
+  
+- <sub>**[Oct 2020]** Started as an instructor for LearnAI course at the University of Toronto</sub>  
+- <sub>**[Aug 2020]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually</sub>  
+- <sub>**[July 2020]** Attended the CIFAR Deep Learning and Reinforcement Learning Summer School 2020 virtually</sub>  
+- <sub>**[June 2020]** Our paper was accepted to CVPR 2020 Minds vs Machines Workshop for an oral presentation</sub>  
+- <sub>**[Jan 2020]** Joined the Machine Learning Research Group at University of Guelph as a graduate research assistant</sub>  
+- <sub>**[Nov 2019]** Volunteered and presented our work at the International Conference in Computer Vision 2019 in Seoul</sub>  
+- <sub>**[Sep 2019]** Started MASc in AI at the University of Guelph. Thankful to receive the Vector Scholarship and JN Tata Scholarship</sub>   
+- <sub>**[Aug 2019]** Attended the Bayesian Methods in Deep Learning Summer School 2019 in Moscow</sub>  
+- <sub>**[July 2019]** Attended the Machine Learning Summer School 2019 in London</sub>   
 
 </details>
 
