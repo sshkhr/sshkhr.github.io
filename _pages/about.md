@@ -14,6 +14,7 @@ Presently, I am an AI Resident at Facebook AI Research working with [Dr. Ari Mor
 
 ## News
 
+* <sub>**[Jan 2022]** Defended my master's thesis on "Inductive Biases in Higher-Order Visual Cognition."</sub> 
 * <sub>**[Nov 2021]** Our paper on Neural Structure Mapping was accepted to NeurIPS 2021 Shared Visual Representations in Humans and Machines Workshop</sub>
 * <sub>**[Oct 2021]** Our extended paper on Neural Response Time analysis was accepted to Applied AI Letters journal</sub> 
 * <sub>**[Sep 2021]** Started as an AI Resident at Facebook AI Reseach</sub> 
@@ -22,7 +23,7 @@ Presently, I am an AI Resident at Facebook AI Research working with [Dr. Ari Mor
 
 <details>
 
-  <summary><b>Click here for older news</b></summary>
+  <summary><b>Click here for older news</b></summary>  
 
   - <sub>**[Oct 2020]** Started as an instructor for LearnAI course at the University of Toronto</sub>  
   - <sub>**[Aug 2020]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually</sub>  
