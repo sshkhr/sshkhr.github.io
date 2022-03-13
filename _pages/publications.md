@@ -11,14 +11,12 @@ For an updated list of publications please refer to [my Google Scholar profile](
 
   {% for post in site.publications reversed%}
   <tr>
-    <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+    <td style="border: none; padding:2.5%;width:25%;vertical-align:middle;max-width:100px;max-height:100px">
       <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
     </td>
-    <td style="padding:2.5%;width:75%;vertical-align:middle">
+    <td style="border: none; padding:2.5%;width:75%;vertical-align:middle">
       <h3>{{post.title}}</h3>
-      <br>
-        {{post.authors}}
-      <br>
+      {{post.authors}}
       <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
       <br>
         {% if post.paperurl %}
