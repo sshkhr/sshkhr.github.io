@@ -8,11 +8,10 @@ venue: 'IEEE BigData Cup 2018 workshop'
 pdf: 'https://arxiv.org/abs/1811.04535'
 paperurl: ''
 citation: ''
-authors: 'Janpreet Singh*, Shashank Shekhar*'
-image: 'images/mrcnn-road.png' 
+authors: 'Janpreet Singh*, <strong> Shashank Shekhar* </strong>'
+image: 'images/mrcnn-road.png'
+code: 'https://github.com/sshkhr/BigDataCup18_Submission'
 
 ---
 
-[Download paper here](https://arxiv.org/abs/1811.04535)
-
-Recommended citation: 
+We fine-tuned a Mask R-CNN trained on MS-COCO dataset to detect and classify road damage in real-world images of roads taken from smartphones.
