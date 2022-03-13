@@ -49,7 +49,5 @@ For the most up-to-date list of publications please refer to [my Google Scholar 
       {{ post.excerpt }}
     </td>
   </tr>
-  {% endif %}
-  {% endfor %}
   {% endfor %}
 </table>
