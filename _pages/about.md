@@ -8,22 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a researcher in computer vision and machine learning. My present research focus is understanding visual representations. I blog about similar topics and also maths and programming in general.
+Hello! I am a researcher in computer vision and machine learning.
 
-Presently, I am an AI Resident at Facebook AI Research working with [Dr. Ari Morcos](http://www.arimorcos.com/) and [Priya Goyal](https://research.fb.com/people/goyal-priya/). Before this, I was master's student at the University of Guelph and Vector Institute, working with [Prof Graham Taylor](https://www.gwtaylor.ca/) at the Machine Learning Research Group. Even further back, I was a research assistant at the [Visual Computing Lab](http://visual-computing.in/home/) at the Indian Institute Of Science working with [Prof Anirban Chakraborty](http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html) and [Prof Anand Mishra](https://anandmishra22.github.io/). I did my bachelor's in Electronics and Communication Engineering from Indian Institute Of Technology (ISM) Dhanbad in 2017. I have also spent time working in the industry either working or collaborating with NEXT-AI Toronto, Layer6 AI Toronto, Shell R&D Center Bangalore, HyperWorks Imaging Bangalore and Samsung Research Institute Delhi. 
+I work at Meta (Facebook) AI Research with [Dr. Ari Morcos](http://www.arimorcos.com/) on scaling laws, self-supervised computer vision, and foundation models. Before this, I was master's student at the University of Guelph and Vector Institute, working with [Prof Graham Taylor](https://www.gwtaylor.ca/) at the Machine Learning Research Group. Even further back, I was a research assistant at the [Visual Computing Lab](http://visual-computing.in/home/) at the Indian Institute Of Science working with [Prof Anirban Chakraborty](http://visual-computing.in/wp-content/uploads/2017/08/anirban-chakraborty.html) and [Prof Anand Mishra](https://anandmishra22.github.io/). I did my bachelor's in Electronics and Communication Engineering from Indian Institute Of Technology Dhanbad in 2017. Besides these experiences, I have over 3 years of experience in machine learning and computer vision working with NEXT-AI Toronto, Layer6 AI Toronto, Shell R&D Center Bangalore, HyperWorks Imaging Bangalore, & Samsung Research Institute Delhi. 
 
 ## News
 
+* <sub>**[Dec 2022]** Attended NeurIPS 2022 in New Orleans and presented our conference and workshop papers.</sub>
+* <sub>**[Nov 2022]** Beyond Neural Scaling Laws wins a Best Paper Award at NeurIPS 2022! [Press Release](https://blog.neurips.cc/2022/11/21/announcing-the-neurips-2022-awards/)</sub>
+* <sub>**[Oct 2022]** New paper at the NeurIPS 2022 Self-Supervised Learning - Theory & Practice Workshop:  
+  [Understanding contrastive versus reconstructive self-supervised learning of Vision Transformers](https://sslneurips22.github.io/paper_pdfs/paper_50.pdf)
+* <sub>**[Sep 2022]** Life Update: I have relocated from the Bay Area back to Canada (Montreal).</sub>
+* <sub>**[Aug 2022]** Beyond neural scaling laws paper accepted for oral presentation at the NeurIPS 2022 Conference.</sub>  
+* <sub>**[June 2022]** New pre-print available: [Beyond neural scaling laws: beating power law scaling via data pruning](https://arxiv.org/abs/2206.14486).</sub>
+* <sub>**[May 2022]** Awarded the University of Guelph Class of OAC'60 Award for Outstanding Teaching Assistant.
 * <sub>**[March 2022]** Gave an invited talk at the Analogical Minds seminar on our Neural Structure Mapping paper. Talk available on [Analogical Minds YouTube channel](https://www.youtube.com/watch?v=v5al6mJKrHQ)</sub>
 * <sub>**[Jan 2022]** Defended my master's thesis on "Inductive Biases in Higher-Order Visual Cognition."</sub> 
-* <sub>**[Nov 2021]** Invited to participate in the Breaking into AI: Industry Speaker Panel. Available on [University of Toronto Machine Intelligence Group YouTube channel](https://www.youtube.com/watch?v=y_JF5-adrCY&t=243s)</sub>
-* <sub>**[Nov 2021]** Our paper on Neural Structure Mapping was accepted to NeurIPS 2021 Shared Visual Representations in Humans and Machines Workshop</sub>
-* <sub>**[Oct 2021]** Our extended paper on Neural Response Time analysis was accepted to Applied AI Letters journal</sub> 
-* <sub>**[Sep 2021]** Started as an AI Resident at Facebook AI Reseach</sub> 
-* <sub>**[Aug 2021]** Our paper on generating scene graphs with transformers was accepted to the International Conference in Computer Vision 2021 for a poster presentation</sub>  
+  
 
 <details markdown=1><summary markdown="span"><b>Click here for older news</b></summary>
-
+  
+  * <sub>**[Nov 2021]** Invited to participate in the Breaking into AI: Industry Speaker Panel. Available on [University of Toronto Machine Intelligence Group YouTube channel](https://www.youtube.com/watch?v=y_JF5-adrCY&t=243s)</sub>
+  * <sub>**[Nov 2021]** Our paper on Neural Structure Mapping was accepted to NeurIPS 2021 Shared Visual Representations in Humans and Machines Workshop</sub>
+  * <sub>**[Oct 2021]** Our extended paper on Neural Response Time analysis was accepted to Applied AI Letters journal</sub> 
+  * <sub>**[Sep 2021]** Started as an AI Resident at Facebook AI Reseach</sub> 
+  * <sub>**[Aug 2021]** Our paper on generating scene graphs with transformers was accepted to the International Conference in Computer Vision 2021 for a poster presentation</sub>
   * <sub>**[April 2021]** Started as a Scientist in Residence for the NEXT AI startup accelerator</sub>  
   * <sub>**[Oct 2020]** Started as an instructor for LearnAI course at the University of Toronto</sub>   
   * <sub>**[Aug 2020]** Attended the MIT-CBMM Summer School on Brains, Minds and Machines 2020 virtually</sub>  
